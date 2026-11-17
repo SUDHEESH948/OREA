@@ -116,13 +116,20 @@ header.site-header {
 }
 
 .brand img {
-  width: 154px;
-  height: 54px;
+  width: auto;
+  max-width: 170px;
+  height: 48px;
   object-fit: contain;
+  display: block;
+  transition: transform 0.25s ease;
+}
+
+.brand:hover img {
+  transform: scale(1.02);
 }
 
 .brand-light img {
-  filter: brightness(0) invert(1);
+  filter: none;
 }
 
 .desktop-nav {
