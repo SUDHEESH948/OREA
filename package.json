@@ -1,0 +1,10 @@
+{
+  "name": "orea-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix OREA run dev",
+    "build": "npm --prefix OREA run build",
+    "lint": "npm --prefix OREA run lint",
+    "preview": "npm --prefix OREA run preview"
+  }
+}
